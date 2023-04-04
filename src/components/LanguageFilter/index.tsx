@@ -11,7 +11,6 @@ export const LanguageFilter: React.FC<Props> = ({
   selectedLanguages,
   handleLanguageChange,
 }) => {
-  // собираем уникальные языки из свойства languages
   const uniqueLanguages: string[] = Array.from(
     new Set(languages.flatMap((language) => language.name))
   );

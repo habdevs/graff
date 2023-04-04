@@ -5,7 +5,6 @@ import { useGetCountries } from '../../services/countries.service';
 import { Card } from '../Card';
 import { Pagination } from '../Pagination';
 import { SearchInput } from '../SearchInput';
-// import { LanguageFilter } from './LanguageFilter';
 
 export const CardList: React.FC = () => {
   const [currentPage, setCurrentPage] = useState<number>(1);
